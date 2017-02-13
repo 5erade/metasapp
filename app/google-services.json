@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1028416785090",
+    "firebase_url": "https://metasprogramapp.firebaseio.com",
+    "project_id": "metasprogramapp",
+    "storage_bucket": "metasprogramapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028416785090:android:86314cca46241a7e",
+        "android_client_info": {
+          "package_name": "com.example.danilk.metasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028416785090-0p9duv3c82uiv2rkh0gf48b6b3dus9ek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIkn9mytiwbxpWDdWnDFehefcvvcL-J4k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028416785090:android:020e88c331143616",
+        "android_client_info": {
+          "package_name": "danilk.metasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028416785090-0p9duv3c82uiv2rkh0gf48b6b3dus9ek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIkn9mytiwbxpWDdWnDFehefcvvcL-J4k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

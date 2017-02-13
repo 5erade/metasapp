@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation_menu">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/menu_top">
+        <item
+            android:id="@+id/item_collapsing_toolbar"
+            android:title="News"
+            android:checked="true"
+            android:icon="@drawable/ic_home_grey_600_24dp"/>
+        <item
+            android:id="@+id/item_services"
+            android:title="Student Resources"
+            android:icon="@drawable/ic_accessibility_grey_600_24dp"/>
+        <!--
+        <item
+            android:id="@+id/item_study_groups"
+            android:title="Study Groups"
+            android:icon="@drawable/ic_group_work_grey_600_24dp"/>
+            -->
+        <!--
+        <item
+            android:id="@+id/item_textbooks"
+            android:title="Textbooks"
+            android:icon="@drawable/ic_book_grey_600_24dp"/>
+                -->
+        <!--
+        <item
+            android:id="@+id/item_tab"
+            android:title="PLTL &amp; SI Workshops"
+            android:icon="@drawable/ic_library_books_grey_600_24dp"/>
+                            -->
+
+        <item
+            android:id="@+id/item_static_workshops"
+            android:title="PLTL &amp; SI Workshops"
+            android:icon="@drawable/ic_library_books_grey_600_24dp"/>
+
+
+        <!--
+        <item
+            android:id="@+id/item_athletics"
+            android:title="Athletics"
+            android:icon="@drawable/ic_directions_run_grey_600_24dp"/>
+        -->
+        <!--
+        <item
+            android:id="@+id/item_faculty"
+            android:title="Faculty &amp; Staff"
+            android:icon="@drawable/ic_people_grey_600_24dp"/>
+        -->
+        <!--
+        <item
+            android:id="@+id/item_peer_leaders"
+            android:title="Peer Leaders"
+            android:icon="@drawable/ic_account_circle_grey_600_24dp"/>
+            -->
+
+        <item
+            android:id="@+id/item_leadership"
+            android:title="Leadership"
+            android:icon="@drawable/ic_account_circle_grey_600_24dp"/>
+
+        <item
+            android:id="@+id/item_tab_map"
+            android:title="Metas Center"
+            android:icon="@drawable/ic_location_on_grey_600_24dp"/>
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/item_feedback"
+            android:title="Feedback"
+            android:icon="@drawable/ic_feedback_grey_600_24dp"/>
+        <item
+            android:id="@+id/item_about"
+            android:title="About"
+            android:icon="@drawable/ic_info_outline_grey_600_24dp"/>
+    </group>
+</menu>

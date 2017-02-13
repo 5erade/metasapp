@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="90dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:text="CHEM 1A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scrollHorizontally="false"
+                android:ellipsize="end"
+                android:textColor="@color/primary_text"
+                 />
+
+            <TextView
+                android:id="@+id/textViewChem1aTutors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:scrollHorizontally="false"
+                android:ellipsize="end" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#A9A9A9"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subscribe for notifications: "
+                    android:paddingLeft="10dp"
+
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp"/>
+
+                <Switch
+                    android:id="@+id/switch1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <!--
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Subscribe"
+                    android:onClick="onClickChem1a"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Unsubscribe"
+                    android:onClick="onClickChem1aUnsubscribed"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+
+
+            </LinearLayout>
+
+-->
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:text="CHEM 1B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scrollHorizontally="false"
+                android:ellipsize="end"
+                android:textColor="@color/primary_text"
+                 />
+
+            <TextView
+                android:id="@+id/textViewChem1bTutors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
+                android:scrollHorizontally="false"
+                android:ellipsize="end" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#A9A9A9"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subscribe for notifications: "
+                    android:paddingLeft="10dp"
+
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp"/>
+
+                <Switch
+                    android:id="@+id/switch1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <!--
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Subscribe"
+                    android:onClick="onClickChem1b"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Unsubscribe"
+                    android:onClick="onClickChem1bUnsubscribed"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+            </LinearLayout>
+-->
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:text="CHEM 15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scrollHorizontally="false"
+                android:ellipsize="end"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/textViewChem15Tutors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:scrollHorizontally="false"
+                android:ellipsize="end"
+               />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#A9A9A9"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subscribe for notifications: "
+                    android:paddingLeft="10dp"
+
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp"/>
+
+                <Switch
+                    android:id="@+id/switch15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <!--
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Subscribe"
+                    android:onClick="onClickChem15"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Unsubscribe"
+                    android:onClick="onClickChem15Unsubscribed"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+            </LinearLayout>
+
+-->
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:text="CHEM 12A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scrollHorizontally="false"
+                android:ellipsize="end"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/textViewChem12aTutors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:scrollHorizontally="false"
+                android:ellipsize="end"
+            />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#A9A9A9"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subscribe for notifications: "
+                    android:paddingLeft="10dp"
+
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp"/>
+
+                <Switch
+                    android:id="@+id/switch12a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <!--
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Subscribe"
+                    android:onClick="onClickChem12a"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Unsubscribe"
+                    android:onClick="onClickChem12aUnsubscribed"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+
+            </LinearLayout>
+-->
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:text="CHEM 12B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:paddingBottom="20dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scrollHorizontally="false"
+                android:ellipsize="end"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/textViewChem12bTutors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:scrollHorizontally="false"
+                android:ellipsize="end"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#A9A9A9"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subscribe for notifications: "
+                    android:paddingLeft="10dp"
+
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp"/>
+
+                <Switch
+                    android:id="@+id/switch12b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <!--
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/chem12b_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Subscribe"
+                    android:onClick="onClickChem12b"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Unsubscribe"
+                    android:onClick="onClickChem12bUnsubscribed"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+
+            </LinearLayout>
+-->
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:text="CHEM 32A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scrollHorizontally="false"
+                android:ellipsize="end"
+                android:textColor="@color/primary_text"
+               />
+
+            <TextView
+                android:id="@+id/textViewChem32aTutors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:scrollHorizontally="false"
+                android:ellipsize="end"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#A9A9A9"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subscribe for notifications: "
+                    android:paddingLeft="10dp"
+
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp"/>
+
+                <Switch
+                    android:id="@+id/switch32a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <!--
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Subscribe"
+                    android:onClick="onClickChem32a"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Unsubscribe"
+                    android:onClick="onClickChem32aUnsubscribed"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+
+            </LinearLayout>
+
+-->
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:text="CHEM 32B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scrollHorizontally="false"
+                android:ellipsize="end"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/textViewChem32bTutors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:scrollHorizontally="false"
+                android:ellipsize="end" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#A9A9A9"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subscribe for notifications: "
+                    android:paddingLeft="10dp"
+
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp"/>
+
+                <Switch
+                    android:id="@+id/switch32b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <!--
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/chem32b_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Subscribe"
+                    android:onClick="onClickChem32b"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Unsubscribe"
+                    android:onClick="onClickChem32bUnsubscribed"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+            </LinearLayout>
+
+-->
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
+</ScrollView>

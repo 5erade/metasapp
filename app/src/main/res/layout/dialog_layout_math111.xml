@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    android:padding="@dimen/dialog_layout_padding">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You will receive notifications from a chosen leader such as change in the leaders schedule."/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="onCheckboxClickedMath111"
+            android:text="Aaron"
+            android:id="@+id/aaronCheckBox111"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="onCheckboxClickedMath111"
+            android:text="Anh"
+            android:id="@+id/anhCheckBox111"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="onCheckboxClickedMath111"
+            android:text="Tommy"
+            android:id="@+id/tommyCheckBox111"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="onCheckboxClickedMath111"
+            android:text="Thadoe"
+            android:id="@+id/thadoeCheckBox111"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

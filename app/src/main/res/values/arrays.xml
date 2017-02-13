@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+
+
+
+    <string-array name="card_titles">
+        <item>Title 1</item>
+        <item>Title 2</item>
+    </string-array>
+
+    <string-array name="card_contents">
+        <item>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+            vehicula.</item>
+        <item>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+            vehicula.</item>
+
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- News start -->
+    <string-array name="card_titles_news">
+        <item>Grades for Fall 2015</item>
+        <item>MyWeb is restored.</item>
+    </string-array>
+
+    <string-array name="card_contents_news">
+        <item>Grades for Fall 2015 have been posted on MyWeb on January 13th.</item>
+        <item>MyWeb has been successfully updated. Students are now able to login. SJCC apologizes for any inconvenience.</item>
+    </string-array>
+    <!-- News end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- MATH Leaders start -->
+    <string-array name="card_titles_math">
+        <item>Danil</item>
+        <item>Adam</item>
+        <item>Tommy</item>
+    </string-array>
+
+    <string-array name="card_contents_math">
+        <item><![CDATA[MATH-13: Tuesday 5:00PM - 6:30PM\nMATH-13: Tuesday 5:00PM - 6:30PM]]></item>
+        <item><![CDATA[MATH-111: Tuesday 5:00PM - 6:30PM\nMATH-13: Tuesday 5:00PM - 6:30PM]]></item>
+        <item><![CDATA[MATH-111: Tuesday 5:00PM - 6:30PM\nMATH-13: Tuesday 5:00PM - 6:30PM]]></item>
+    </string-array>
+    <!-- MATH Leaders end -->
+
+    <!-- Physics Leaders start -->
+    <string-array name="card_titles_phys">
+        <item>Kevin</item>
+        <item>Adam</item>
+        <item>Tommy</item>
+    </string-array>
+
+    <string-array name="card_contents_phys">
+        <item><![CDATA[PHYS-1A: Tuesday 5:00PM - 6:30PM\nPHYS-1A:: Tuesday 5:00PM - 6:30PM]]></item>
+        <item><![CDATA[PHYS-2A: Tuesday 5:00PM - 6:30PM\nPHYS-2A: Tuesday 5:00PM - 6:30PM]]></item>
+        <item><![CDATA[PHYS-4A: Tuesday 5:00PM - 6:30PM\nPHYS-4A: Tuesday 5:00PM - 6:30PM]]></item>
+    </string-array>
+    <!-- Physics Leaders end -->
+
+    <!-- Chemistry Leaders start -->
+    <string-array name="card_titles_chem">
+        <item>Abby</item>
+        <item>Pablo</item>
+        <item>Chris</item>
+    </string-array>
+
+    <string-array name="card_contents_chem">
+        <item><![CDATA[CHEM-1A: Tuesday 5:00PM - 6:30PM\nCHEM-1A: Tuesday 5:00PM - 6:30PM]]></item>
+        <item><![CDATA[CHEM-1B: Tuesday 5:00PM - 6:30PM\nCHEM-1B: Tuesday 5:00PM - 6:30PM]]></item>
+        <item><![CDATA[CHEM-46: Tuesday 5:00PM - 6:30PM\nCHEM-46: Tuesday 5:00PM - 6:30PM]]></item>
+    </string-array>
+    <!-- Chemistry Leaders end -->
+
+    <!-- Biology Leaders start -->
+    <string-array name="card_titles_bio">
+        <item>Abby</item>
+        <item>Silva</item>
+        <item>Shawn</item>
+    </string-array>
+
+    <string-array name="card_contents_bio">
+        <item><![CDATA[BIO-4A: Tuesday 5:00PM - 6:30PM\nBIO-4A: Tuesday 5:00PM - 6:30PM]]></item>
+        <item><![CDATA[BIO-4B: Tuesday 5:00PM - 6:30PM\nBIO-4B: Tuesday 5:00PM - 6:30PM]]></item>
+        <item><![CDATA[BIO-21: Tuesday 5:00PM - 6:30PM\nBIO-21: Tuesday 5:00PM - 6:30PM]]></item>
+    </string-array>
+    <!-- Biology Leaders end -->
+
+
+</resources>

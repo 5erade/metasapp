@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/card_padding"
+    android:paddingRight="@dimen/card_padding">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:id="@+id/myImageView"
+
+                android:layout_width="wrap_content"
+                android:layout_height="233dp"
+                android:scaleType="fitStart"
+              />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peer Led Team Learning - PLTL"
+                android:textSize="24sp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/primary_text"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:maxLines="20"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="8dp"
+                android:text="Peer-​Led Team Learning (PLTL) is a learning and leadership program accomplished through a co​llaborative effort between the Metas Program and STEM disciplines (Science, Technology, Engineering, and Math).   The central component of the program is weekly PLTL ​worksh​ops for students enrolled in specified STEM courses that are facilitated by peer leaders. &#xD;&#xD; During the workshops, students participate in discussions, problem solving, and other activities to assist them in​ enh​ancing their su​bject matter knowledge, study skills, and course su​ccess."
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="See workshops"
+                    android:onClick="onClickWorkshopsFragment"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Learn More"
+                    android:onClick="webLearnMorePLTL"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/siImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="233dp"
+                android:scaleType="fitStart"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="10dp"
+                android:text="Supplemental Instruction - SI"
+                android:textColor="@color/primary_text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:maxLines="20"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="24dp"
+                android:text='Supplemental Instruction (SI) is an academic assistance program that uses peer-assisted workshops. SI workshops are regularly scheduled, informal review sessions where students compare notes, discuss readings, develop organizational tools, and predict test items. Students learn how to integrate course content and study skills while working together in a small group setting. The workshops are facilitated by "SI Leaders" students who have done well in the course and have a genuine desire to help their peers succeed. '/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="See workshops"
+                    android:onClick="onClickWorkshopsFragment"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Learn More"
+                    android:onClick="webLearnMoreSI"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/researchProgramImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="233dp"
+                android:scaleType="fitStart"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="10dp"
+                android:text="Undergraduate Research Scholars Program"
+                android:textColor="@color/primary_text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:maxLines="20"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="24dp"
+                android:text="Are you interested in transferring to a UC? Would you like to get first-hand experience doing research at UC Santa Cruz? The Cultivamos Excelencia Undergraduate Research Program provides San Jose City College students with the opportunity to engage in university-level studies at the University of California, Santa Cruz under the guidance and mentorship of San Jose City College faculty, UC Santa Cruz professors, and UC Santa Cruz graduate students. Students in this program work on research projects, either individually or in teams, delving into the fascinating world of university inquiry and discovery.​"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Learn more"
+                    android:onClick="webLearnMoreResearchProgram"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Apply"
+                    android:onClick="webApplyResearchProgram"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+            </LinearLayout>
+
+                </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/summerBridgeProgramImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="233dp"
+                android:scaleType="fitStart"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="10dp"
+                android:text="Caminos Summer Bridge ＆ FYE"
+                android:textColor="@color/primary_text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:maxLines="20"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="24dp"
+                android:text="Caminos Summer Bridge and First Year Experience (FYE) supports incoming students making the transition from high school to San Jose City College. Caminos provides an opportunity for students to begin the first year of college by completing the foundational course during Summer Bridge while learning to navigate college life. Students continue their Caminos experience through FYE with a team of counselors, instructors, and peers to guide students beyond the first year of college and through graduation. Upon completion of the first year, students will have clear expectations of the quality and quantity of work required to successfully complete college."
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="Learn more"
+                    android:onClick="webLearnMoreSummerBridgeProgram"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginEnd="18dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="10dp"
+                android:text="Textbooks Calculator Loan"
+                android:textColor="#212121"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:maxLines="20"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="24dp"
+                android:text="Textbooks and Calculators are available for loan. Please visit Metas Center in person for more details."/>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</LinearLayout>

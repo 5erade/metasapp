@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="danilk.metasapp.MainActivity">
+    <item
+        app:showAsAction="always|collapseActionView"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:id="@+id/menu_item_search"
+        android:orderInCategory="1"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="Search"
+        android:iconifiedByDefault="true"
+        />
+</menu>

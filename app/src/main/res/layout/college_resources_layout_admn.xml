@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="@dimen/card_padding"
+            android:paddingRight="@dimen/card_padding">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardElevation="@dimen/card_elevation"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/metas_center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitStart"
+                        android:adjustViewBounds="true"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:maxLines="3"
+                        android:scrollHorizontally="false"
+                        android:ellipsize="end"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="6dp"
+                        android:textColor="@color/primary_text"
+                        android:text="Admission &amp; Records"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:maxLines="20"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="8dp"
+                        android:text="Admission &amp; Records Office will help SJCC student with following: \n\n&#8226; Admission application processing\n&#8226; Registering, adding and dropping classes\n&#8226; Transcript requests including GE/IGETC \n&#8226; Evaluation of incoming transcripts\n&#8226; Fee refund processing\n&#8226; Enrollment verification \n&#8226; Grade posting and changes \n&#8226; Census verifications \n&#8226; Reporting positive attendance \n&#8226; Open &amp; ending semester processes"
+                        android:textColor="@color/primary_text"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:maxLines="10"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="1st floor of the Student Center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:maxLines="10"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="M-Th 8:30AM-5:30PM &amp; Fri 9:00AM-1PM"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <Button
+                            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="CALL"
+                            android:textStyle="bold"
+                            android:textColor="@color/accent"
+                            android:autoLink="phone"
+                            android:onClick="callAdmissonRecords" />
+                        <Button
+                            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="EMAIL"
+                            android:textStyle="bold"
+                            android:textColor="@color/accent"
+                            android:autoLink="email"
+                            android:onClick="emailAdmissonRecords" />
+
+                        <Button
+                            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="WEB"
+                            android:textStyle="bold"
+                            android:textColor="@color/accent"
+                            android:autoLink="web"
+                            android:onClick="webAdmissonRecords" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardElevation="@dimen/card_elevation"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:maxLines="3"
+                        android:scrollHorizontally="false"
+                        android:ellipsize="end"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="6dp"
+                        android:textColor="@color/primary_text"
+                        android:text="Counseling"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:maxLines="20"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="8dp"
+                        android:text="Counseling Department is committed to providing quality, comprehensive academic, career, and personal counseling services to SJCC students.\n\n&#8226; Academic Counseling\n&#8226; Career Counseling\n&#8226; Personal Counseling"
+                        android:textColor="@color/primary_text"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:maxLines="10"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="Student Center, 2nd Floor, SC-200"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:maxLines="10"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="M-Th 8:00AM-6:00PM &amp; Fri 8:00AM-2:00PM"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <Button
+                            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="CALL"
+                            android:textStyle="bold"
+                            android:textColor="@color/accent"
+                            android:autoLink="phone"
+                            android:onClick="callCounseling" />
+                        <Button
+                            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="EMAIL"
+                            android:textStyle="bold"
+                            android:textColor="@color/accent"
+                            android:autoLink="email"
+                            android:onClick="emailCounseling" />
+
+                        <Button
+                            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="WEB"
+                            android:textStyle="bold"
+                            android:textColor="@color/accent"
+                            android:autoLink="web"
+                            android:onClick="webCounseling" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardElevation="@dimen/card_elevation"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:maxLines="3"
+                        android:scrollHorizontally="false"
+                        android:ellipsize="end"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="6dp"
+                        android:textColor="@color/primary_text"
+                        android:text="Career &amp; Transfer Center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:maxLines="20"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="8dp"
+                        android:text="The Career/Transfer Center is committed to supporting our students in achieving their educational and career goals. \n\nStudent Learning Outcomes: \n\n&#8226; Recognize colleges/universities offering transfer admission agreements/ guarantees to SJCC students \n&#8226; Understand the elements of a transfer admission agreement/guarantee \n&#8226; Describe the minimum eligibility for transfer to a UC/CSU system\n&#8226; Use online career assessment tools for exploration and assessment"
+                        android:textColor="@color/primary_text"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:maxLines="10"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="Student Center, 2nd Floor, Room SC-216A"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:maxLines="10"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="M-Th 9:00AM-5:00PM &amp; Fri 9:00AM - 12:00PM"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <Button
+                            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="CALL"
+                            android:textStyle="bold"
+                            android:textColor="@color/accent"
+                            android:autoLink="phone"
+                            android:onClick="callCareerCenter" />
+                        <Button
+                            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="EMAIL"
+                            android:textStyle="bold"
+                            android:textColor="@color/accent"
+                            android:autoLink="email"
+                            android:onClick="emailCareerCenter" />
+
+                        <Button
+                            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="WEB"
+                            android:textStyle="bold"
+                            android:textColor="@color/accent"
+                            android:autoLink="web"
+                            android:onClick="webCareerCenter" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardElevation="@dimen/card_elevation"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:maxLines="3"
+                        android:scrollHorizontally="false"
+                        android:ellipsize="end"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="6dp"
+                        android:textColor="@color/primary_text"
+                        android:text="Financial Aid"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:maxLines="10"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="8dp"
+                        android:text="Financial Aid Office helps SJCC students apply for and obtain funds from a variety of financial aid programs.\nVisit us during office hours or attend one of several workshops held throughout the year. Check with the Financial Aid Office for more details."
+                        android:textColor="@color/primary_text"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:maxLines="10"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="1st floor of the Student Center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:maxLines="10"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="M-Th 8:30AM-5:30PM &amp; Fri 9:00AM-1:00PM"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <Button
+                            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="CALL"
+                            android:textStyle="bold"
+                            android:textColor="@color/accent"
+                            android:autoLink="phone"
+                            android:onClick="callFidAid" />
+                        <Button
+                            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="EMAIL"
+                            android:textStyle="bold"
+                            android:textColor="@color/accent"
+                            android:autoLink="email"
+                            android:onClick="emailFinAid" />
+
+                        <Button
+                            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="WEB"
+                            android:textStyle="bold"
+                            android:textColor="@color/accent"
+                            android:autoLink="web"
+                            android:onClick="webFinAid" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardElevation="@dimen/card_elevation"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:maxLines="3"
+                        android:scrollHorizontally="false"
+                        android:ellipsize="end"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="6dp"
+                        android:textColor="@color/primary_text"
+                        android:text="Academic Calendar"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:maxLines="10"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="8dp"
+                        android:text="Academic calendar for Spring 2016 is available on SJCC web site."
+                        android:textColor="@color/primary_text"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="WEB"
+                            android:textStyle="bold"
+                            android:textColor="@color/accent"
+                            android:autoLink="web"
+                            android:onClick="webCalendar" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardElevation="@dimen/card_elevation"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:maxLines="3"
+                        android:scrollHorizontally="false"
+                        android:ellipsize="end"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="6dp"
+                        android:textColor="@color/primary_text"
+                        android:text="Class Schedule"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:maxLines="10"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="8dp"
+                        android:text="Class Schedule for Spring 2016 is available via SJCC web site."
+                        android:textColor="@color/primary_text"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:paddingLeft="16dp"
+                            android:text="WEB"
+                            android:textStyle="bold"
+                            android:textColor="@color/accent"
+                            android:autoLink="web"
+                            android:onClick="webClassSchedule" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

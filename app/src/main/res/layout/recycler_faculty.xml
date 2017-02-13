@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/card_padding"
+    android:paddingRight="@dimen/card_padding">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="@dimen/card_corner_radius"
+        android:id="@+id/fac"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/card_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:maxLines="1"
+                android:scrollHorizontally="false"
+                android:ellipsize="end"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/primary_text"/>
+
+            <TextView
+                android:id="@+id/card_occupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:maxLines="2"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp" />
+            <TextView
+                android:id="@+id/card_office"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:maxLines="2"
+                android:paddingLeft="16dp"
+                />
+            <TextView
+                android:paddingLeft="16dp"
+                android:id="@+id/email_button"
+                android:text="EMAIL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="email"
+                android:clickable="true"
+                android:paddingBottom="10dp"
+                android:textIsSelectable="true"
+                />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>
