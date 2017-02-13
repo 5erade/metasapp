@@ -384,7 +384,7 @@
 
             <TextView
                 android:id="@+id/textViewMath25"
-                android:text="MATH 21/25"
+                android:text="MATH 25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="24sp"
