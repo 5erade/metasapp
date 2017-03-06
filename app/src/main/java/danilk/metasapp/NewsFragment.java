@@ -66,7 +66,7 @@ public class NewsFragment extends Fragment {
         header = (ImageView)view.findViewById(R.id.flexible_image);
         Glide
                 .with(getActivity())
-                .load(R.drawable.new_background)
+                .load(R.drawable.background_2017)
                 .crossFade()
                 .into(header);
 

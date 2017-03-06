@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.6.1_f039cd27191e6768065d48080a2a477073a08b4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\amrod\Downloads\metasapp-master\app\build\intermediates\exploded-aar\com.firebaseui\firebase-ui\0.3.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -21,12 +30,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_a7df6b2321476b271014ba9011e601600e0e8f70\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ac8365c87591065db07f7bac8551504504832cd4">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.6.1_0199da58b0ab4a1c300715df5e3120fdd28f6141\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\amrod\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
         <dex dex="C:\Users\amrod\Downloads\metasapp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_d7ef3339be72fd3bb5d302415c0ae66960fd0919\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_fd1b4c91df9a9c5a6d54dde625ae768c782c5029\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -48,12 +84,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.6.1_ae376747322afaefe6c2fea986dddfe583ef0fc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\amrod\Downloads\metasapp-master\app\build\intermediates\exploded-aar\io.doorbell\android-sdk\0.2.6\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="dd789c50195aee4ac79863006b73088ed8b131e2">
         <dex dex="C:\Users\amrod\Downloads\metasapp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.doorbell-android-sdk-0.2.6_76b68c10ef814a071b1d687cc477ad104473c17f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_b7a04437e7ef63908b5c7aa663686df10ff14c7c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -66,12 +120,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2c74821ab525ff80dc70b7fbe90974e16af15a49">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ecad889dd88059697f922f750041673808447332\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\amrod\Downloads\metasapp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
         <dex dex="C:\Users\amrod\Downloads\metasapp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_ab29e22eeb52ada1a54b94933acb20891dc07c63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_38922fd423cd5475ee2b0a19ed511b8961057d82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.6.1_b8f3bd05b438e421ecb8aad9035b9e381da8463e\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,12 +174,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\io.doorbell\android-sdk\0.2.6\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dd789c50195aee4ac79863006b73088ed8b131e2">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.doorbell-android-sdk-0.2.6_ca82879a93f1191d8f533c7410f109dc7ee5a23b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\amrod\Downloads\metasapp-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
         <dex dex="C:\Users\amrod\Downloads\metasapp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.1_c6211694b57f53273c4dd1f6096d8c71d24d4346\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_db828850138be1c021f946bb5aa051bac0497c74\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -126,6 +225,33 @@
         revision="23.0.2"
         sha1="c0af904657634f7ab9cc21e75d80250570033321">
         <dex dex="C:\Users\amrod\Downloads\metasapp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.5.0_13e48167d8c64c2615588e8f51fd493f71c151d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_bcbfa3e8139131a8d7ca449d1ade4c05e3764779\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_128b05f9ffd5bad085d71be17260a27000be9ed0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="96bbdf8538465b93e3a009a332b9354a0af8c06a">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_08f8f1dcd7ab23b9c624ce73bfc15e0c985df824\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -174,6 +300,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.1_8ec1a99c3edd1581b8bb9cad67ec07081330daed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.6.1_ab8319778117e41662564912e97bd4f17d027387\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\amrod\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.12\6ec0bbd3e161a73ed672284b587fd32309a86d7a\tubesock-0.0.12.jar"
         jumboMode="true"
         optimize="true"
@@ -192,12 +336,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.firebaseui\firebase-ui\0.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4f1b1575fdbc1d7f89acea015f93b08bc27e3d05">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-0.3.0_18d812b15bfd5feee045fa08444cc4ba718249f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_8a4097a618e46e84bedc2dad752103aa7e49e465\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\amrod\Downloads\metasapp-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
         <dex dex="C:\Users\amrod\Downloads\metasapp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.6.1_ce2ba41fe30462e90f33cf8aedf91b1472825ef7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.1_c6fc9488db209c41d3075e9f9f2e18e9919ab6f0\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -255,12 +426,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.6.1_e5bd18abb007cd68554c249b12a79ce08a5073f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\amrod\Downloads\metasapp-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.6.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
         <dex dex="C:\Users\amrod\Downloads\metasapp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.6.1_4cf7052b1f5d9dc10075edfc2688100f99097f00\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="C:\Users\amrod\OneDrive\Documents\GitHub\metasapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.6.1_4aeb0da4c0d3dd417a5ea2730d1cf4e1191f260e\classes.dex" />
     </item>
 
 </items>
